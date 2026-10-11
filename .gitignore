@@ -1,0 +1,34 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local MLflow artifacts
+mlruns/
+**/mlruns/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Raw and intermediate datasets
+data/hotel_bookings.csv
+data/hotel_bookings_clean.csv
+data/model_ready_data.csv
+data/test_data.csv
+data/train_data.csv
+data/final_predictions.csv
