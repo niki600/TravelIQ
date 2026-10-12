@@ -450,6 +450,44 @@ The Power BI dashboard provides an interactive overview of hotel booking perform
 - Deposit type and customer type analysis
 - Meal type and booking changes analysis
 
+## 🖥️ Streamlit Application Screenshots
+
+### 1. Booking Prediction Form
+
+Enter booking details to estimate cancellation risk.
+
+![TravelIQ Booking Prediction Form](screenshots/streamlit_form.png)
+
+### 2. Cancellation Prediction Result
+
+View the predicted cancellation probability, risk category, and business recommendation.
+
+![TravelIQ Prediction Result](screenshots/streamlit_result.png)
+
+### 3. Explainable AI and Business Explanation
+
+SHAP helps interpret the model prediction, while Phi-3 generates a natural-language business explanation.
+
+![TravelIQ SHAP and AI Explanation](screenshots/streamlit_shap_ai.png)
+
+### 4. Business Intelligence — KPI Dashboard
+
+Key performance indicators for high-risk bookings, estimated revenue exposure, lead time, ADR, and stay duration.
+
+![TravelIQ Business Intelligence KPIs](screenshots/streamlit_bi_kpis.png)
+
+### 5. Business Intelligence — Risk Analysis
+
+High-risk booking distributions by lead time and market segment.
+
+![TravelIQ High-Risk Booking Charts](screenshots/streamlit_bi_charts.png)
+
+### 6. Key Business Insights
+
+Summary of important patterns and suggested actions for hotel booking risk management.
+
+![TravelIQ Key Business Insights](screenshots/streamlit_bi_insights.png)
+
 ## 💼 Business Value
 
 TravelIQ demonstrates how data engineering, machine learning,
