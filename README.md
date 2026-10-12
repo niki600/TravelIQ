@@ -488,6 +488,27 @@ Summary of important patterns and suggested actions for hotel booking risk manag
 
 ![TravelIQ Key Business Insights](screenshots/streamlit_bi_insights.png)
 
+## 🧪 Model Evaluation & Experiment Tracking
+
+### 1. MLflow Experiment Tracking
+
+MLflow was used to track machine learning experiments and compare evaluation metrics such as precision, recall, F1 score, and ROC-AUC.
+
+![TravelIQ MLflow Experiment Tracking](screenshots/mlflow_runs.png)
+
+### 2. Random Forest Confusion Matrix
+
+The confusion matrix illustrates the selected Random Forest model's classification results, including true positives, true negatives, false positives, and false negatives.
+
+![TravelIQ Random Forest Confusion Matrix](screenshots/confusion_matrix.png)
+
+### 3. Random Forest Feature Importance
+
+Feature importance highlights the booking attributes that contributed most to the Random Forest model's predictions. This complements the individual prediction explanations generated using SHAP.
+
+![TravelIQ Random Forest Feature Importance](screenshots/feature_importance.png)
+
+
 ## 💼 Business Value
 
 TravelIQ demonstrates how data engineering, machine learning,
