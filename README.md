@@ -428,6 +428,28 @@ This is an organizational example, not a claim that every listed file
 already exists. Keep your actual filenames and paths consistent with the
 application code.
 
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive overview of hotel booking performance and cancellation patterns.
+
+![TravelIQ Power BI Dashboard](screenshots/powerbi_overview.png)
+
+### Key Metrics
+
+- **Total Bookings:** 87.396K
+- **Cancellation Rate:** 27.5%
+- **Revenue at Risk:** $11M
+- **Average ADR:** $106.34
+
+### Dashboard Analysis
+
+- Monthly cancellation trends
+- Cancellation patterns by hotel type
+- Lead-time analysis
+- Market segment analysis
+- Deposit type and customer type analysis
+- Meal type and booking changes analysis
+
 ## 💼 Business Value
 
 TravelIQ demonstrates how data engineering, machine learning,
